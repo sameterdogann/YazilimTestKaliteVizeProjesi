@@ -6,25 +6,41 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Title = "Samet Erdoðan - Test Otomasyonu";
+        // GitHub ve farklÄ± platformlarda karakter bozulmasÄ±nÄ± Ã¶nlemek iÃ§in 
+        // TÃ¼rkÃ§e karakterler Ä°ngilizce karÅŸÄ±lÄ±klarÄ±yla revize edilmiÅŸtir.
+        Console.Title = "Samet Erdogan - Test Otomasyonu";
         Console.WriteLine("==================================================");
-        Console.WriteLine("     SAMET ERDOÐAN - E-TÝCARET TEST PANELÝ       ");
+        Console.WriteLine("      SAMET ERDOGAN - E-TICARET TEST PANELI       ");
         Console.WriteLine("==================================================");
-        Console.WriteLine("Ders: Yazýlým Test ve Kalite Analizi / MTH2005 \n");
+        Console.WriteLine("Ders: Yazilim Test ve Kalite Analizi / MTH2005 \n");
 
         string[] passes = { "T1", "T2", "T4", "T6", "T7", "T8", "T9", "T10", "T12" };
-        string[] fails = { "T3 (Kargo Operatör Hatasý)", "T5 (Ödeme Sýnýr Hatasý)", "T11 (Toplam Tutar Bugý)" };
+        string[] fails = { 
+            "T3 (Kargo Operator Hatasi)", 
+            "T5 (Odeme Sinir Hatasi)", 
+            "T11 (Toplam Tutar Bugi)" 
+        };
 
+        // BaÅŸarÄ±lÄ± Testler
         Console.ForegroundColor = ConsoleColor.Green;
-        foreach (var t in passes) Console.WriteLine($" [PASS] {t,-5} : Baþarýyla Tamamlandý.");
+        foreach (var t in passes) 
+        {
+            Console.WriteLine($" [PASS] {t,-5} : Basariyla Tamamlandi.");
+        }
 
+        // HatalÄ± Testler
         Console.ForegroundColor = ConsoleColor.Red;
-        foreach (var t in fails) Console.WriteLine($" [FAIL] {t,-5} : Yazýlým Hatasý Bulundu.");
+        foreach (var t in fails) 
+        {
+            Console.WriteLine($" [FAIL] {t,-5} : Yazilim Hatasi Bulundu.");
+        }
 
+        // Ã–zet Bilgi
         Console.ResetColor();
         Console.WriteLine("\n--------------------------------------------------");
-        Console.WriteLine("Toplam: 12 Senaryo | 9 Baþarýlý | 3 Kusurlu (Bug)");
+        Console.WriteLine("Toplam: 12 Senaryo | 9 Basarili | 3 Kusurlu (Bug)");
         Console.WriteLine("==================================================");
+        Console.WriteLine("\nCikis yapmak icin bir tusa basin...");
         Console.ReadKey();
     }
 }
