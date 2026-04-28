@@ -8,7 +8,7 @@ Bu proje, bir **e-ticaret sisteminin** temel işlevlerini (**Ürün Yönetimi**,
 
 - **Ad Soyad:** Samet ERDOĞAN  
 - **Öğrenci Numarası:** 20230108039  
-- **Bölüm:** Bilgisayar Programcılığı  
+- **Üniversite ve Bölüm:** Piri Reis Üniversitesi - Bilgisayar Programcılığı  
 - **Ders Adı:** Yazılım Test ve Kalitesi  
 - **Ders Kodu:** MTH2005  
 - **Öğretim Görevlisi:** Emrah SARIÇİÇEK  
@@ -80,5 +80,5 @@ Yapılan testler sonucunda sistemde şu **kritik hatalar** raporlanmıştır:
 ### 🚀 Çalıştırma Adımları
 
 1. Projeyi IDE'niz ile açın.  
-2. **Test Explorer** üzerinden tüm testleri çalıştırarak **9 başarılı, 3 başarısız** sonucu gözlemleyin.  
+2. **Test Explorer** üzerinden tüm testleri çalıştırarak **9 başarılı, 3 başarısız Toplam 12 Test**  sonucu gözlemleyin.  
 3. Konsol çıktısı için projenin `ECommerceApp.sln` dosyasını çalıştırarak görsel analiz raporuna ulaşın.
